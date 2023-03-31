@@ -1,0 +1,23 @@
+INFO  31.03.2023 22:04:24  Trying to initialize repositories from: 
+    F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaAuthor\WEB-INF\bootstrap\author
+    F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaAuthor\WEB-INF\bootstrap\common
+INFO  31.03.2023 22:04:24  Repository [dam] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [keystore] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [contacts] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [usergroups] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [magnolia-mgnlSystem] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [scripts] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [tours] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [website] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [magnolia-mgnlVersion] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [userroles] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [profiles] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [users] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [tasks] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [imaging] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [category] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [rss] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [default] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [resources] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [messages] has been initialized.
+INFO  31.03.2023 22:04:24  Repository [config] has been initialized.

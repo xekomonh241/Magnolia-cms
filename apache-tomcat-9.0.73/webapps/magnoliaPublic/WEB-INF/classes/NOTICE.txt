@@ -1,0 +1,1069 @@
+Magnolia Community Demo Webapp 6.2.32
+Copyright 2003-2023 Magnolia International Ltd.
+
+This product includes/uses software(s) developed by 'an unknown organization'
+  - Adobe XMPCore (https://www.adobe.com/devnet/xmp/library/eula-xmp-library-java.html)
+      License: The BSD 3-Clause License (BSD3)  (https://opensource.org/licenses/BSD-3-Clause)
+  - com.drewnoakes:metadata-extractor (https://drewnoakes.com/code/exif/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - parso (https://github.com/epam/parso)
+      License: Apache License v2  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - com.github.dzieciou.testing:curl-logger (https://github.com/dzieciou/curl-logger)
+      License: BSD License, Revised  (https://opensource.org/licenses/BSD-3-Clause)
+  - btf (https://github.com/java-json-tools/btf)
+      License: Lesser General Public License, version 3 or greater  (http://www.gnu.org/licenses/lgpl.html)
+      License: Apache Software License, version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - jackson-coreutils (https://github.com/java-json-tools/jackson-coreutils)
+      License: Lesser General Public License, version 3 or greater  (http://www.gnu.org/licenses/lgpl.html)
+      License: Apache Software License, version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - json-patch (https://github.com/java-json-tools/json-patch)
+      License: Lesser General Public License, version 3 or greater  (http://www.gnu.org/licenses/lgpl.html)
+      License: Apache Software License, version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - msg-simple (https://github.com/java-json-tools/msg-simple)
+      License: Lesser General Public License, version 3 or greater  (http://www.gnu.org/licenses/lgpl.html)
+      License: Apache Software License, version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - Java Unrar (https://github.com/junrar/junrar)
+      License: UnRar License  (https://github.com/junrar/junrar/LICENSE.md)
+  - com.github.usefulness:webp-imageio (https://github.com/usefulness/webp-imageio)
+      License: The Apache License, Version 2.0  (https://github.com/usefulness/webp-imageio/blob/master/LICENSE)
+  - Guava InternalFutureFailureAccess and InternalFutures (https://github.com/google/guava)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Guava ListenableFuture only (https://github.com/google/guava)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - J2ObjC Annotations (https://github.com/google/j2objc/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - dd-plist (http://www.github.com/3breadt/dd-plist)
+      License: MIT License  (http://opensource.org/licenses/mit)
+  - asyncutil (http://github.com/ibm/java-async-util)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - json-path (https://github.com/jayway/JsonPath)
+      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - c3p0 (https://github.com/swaldman/c3p0)
+      License: GNU Lesser General Public License, Version 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)
+      License: Eclipse Public License, Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.php)
+  - Vaadin License Checker (https://github.com/vaadin/license-checker-vaadin10)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - atmosphere-runtime (https://github.com/Atmosphere/atmosphere)
+      License: CDDL  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Vaadin Customized GWT Elemental Library (http://vaadin.com)
+      License: Apache License Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-slf4j-jdk14 (http://www.slf4j.org)
+      License: The MIT License  (http://opensource.org/licenses/MIT)
+  - ClassGraph (https://github.com/classgraph/classgraph)
+      License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+  - io.grpc:grpc-context (https://github.com/grpc/grpc-java)
+      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+  - OpenCensus (https://github.com/census-instrumentation/opencensus-java)
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - OpenCensus (https://github.com/census-instrumentation/opencensus-java)
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - RxJava (https://github.com/ReactiveX/RxJava)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - swagger-annotations (https://github.com/swagger-api/swagger-core)
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - swagger-core (https://github.com/swagger-api/swagger-core)
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - swagger-models (https://github.com/swagger-api/swagger-core)
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - swagger-parser (http://nexus.sonatype.org/oss-repository-hosting.html)
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - swagger-parser-v3 (http://nexus.sonatype.org/oss-repository-hosting.html)
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Byte Buddy (without dependencies) (https://bytebuddy.net)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Java Native Access (https://github.com/java-native-access/jna)
+      License: LGPL-2.1-or-later  (https://www.gnu.org/licenses/old-licenses/lgpl-2.1)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Java Native Access Platform (https://github.com/java-native-access/jna)
+      License: LGPL-2.1-or-later  (https://www.gnu.org/licenses/old-licenses/lgpl-2.1)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Bouncy Castle ASN.1 Extension and Utility APIs (https://www.bouncycastle.org/java.html)
+      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+  - org.brotli:dec (http://brotli.org)
+      License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+  - Checker Qual (https://checkerframework.org)
+      License: The MIT License  (http://opensource.org/licenses/MIT)
+  - Easy Random Core (https://github.com/j-easy/easy-random)
+      License: MIT License  (http://opensource.org/licenses/mit-license.php)
+  - IntelliJ IDEA Annotations (http://www.jetbrains.org)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Kotlin Stdlib (https://kotlinlang.org/)
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Kotlin Stdlib Common (https://kotlinlang.org/)
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Kotlin Stdlib Jdk7 (https://kotlinlang.org/)
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Kotlin Stdlib Jdk8 (https://kotlinlang.org/)
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jwarc (https://github.com/iipc/jwarc)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - extended-token-field
+  - jquery (http://webjars.org)
+      License: MIT License  (https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt)
+  - jquery-migrate (http://webjars.org)
+      License: MIT License  (https://github.com/jquery/jquery-migrate/blob/master/LICENSE-MIT)
+  - jquery.terminal.js (http://webjars.org)
+      License: LGPL v3  (https://github.com/jcubic/jquery.terminal#readme)
+
+This product includes/uses software(s) developed by 'Andrey Somov' (https://bitbucket.org/asomov/snakeyaml)
+  - SnakeYAML
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Antti Nieminen' (https://vaadin.com/directory#!addon/aceeditor)
+  - aceeditor
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'AOP Alliance' (http://aopalliance.sourceforge.net)
+  - AOP alliance
+      License: Public Domain 
+
+This product includes/uses software(s) developed by 'Apache Software Foundation' (http://db.apache.org/)
+  - Apache Derby Database Engine and Embedded JDBC Driver (http://db.apache.org/derby/)
+      License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Apache Software Foundation' (http://freemarker.org)
+  - FreeMarker
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Apache Software Foundation' (http://www.apache.org/)
+  - Apache POI - Common (https://poi.apache.org/)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache POI - API based on OPC and OOXML schemas (https://poi.apache.org/)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache POI (https://poi.apache.org/)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache POI (https://poi.apache.org/)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Apache Software Foundation' (https://apache.org)
+  - Apache Groovy (https://groovy-lang.org)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Groovy (https://groovy-lang.org)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Atteo' (http://www.atteo.com)
+  - Evo Inflector (http://atteo.org/static/evo-inflector)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Byte Code Generation Library' (https://github.com/cglib/cglib)
+  - cglib
+      License: Apache License, Version 2.0  (https://github.com/cglib/cglib/blob/master/LICENSE)
+
+This product includes/uses software(s) developed by 'Cedar Software' (http://www.cedarsoftware.com)
+  - json-io
+      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Chemouni Uriel' (https://urielch.github.io/)
+  - ASM based accessors helper used by json-smart (https://urielch.github.io/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JSON Small and Fast Parser (https://urielch.github.io/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Codehaus' (http://codehaus.org/)
+  - ProxyToys Core
+      License: New BSD License (w/ minor reformatting)  (https://raw.githubusercontent.com/proxytoys/proxytoys/master/LICENSE.txt)
+
+This product includes/uses software(s) developed by 'CodeLibs Project' (http://www.codelibs.org)
+  - JHighlight
+      License: CDDL, v1.0  (http://www.opensource.org/licenses/cddl1.php)
+      License: LGPL, v2.1 or later  (http://www.opensource.org/licenses/lgpl-license.php)
+
+This product includes/uses software(s) developed by 'com.alexdupre' (https://github.com/alexdupre/pngj)
+  - PNGJ (https://github.com/alexdupre/pngj)
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+This product includes/uses software(s) developed by 'com.mchange'
+  - mchange-commons-java (https://github.com/swaldman/mchange-commons-java)
+      License: GNU Lesser General Public License, Version 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)
+      License: Eclipse Public License, Version 1.0  (http://www.eclipse.org/org/documents/epl-v10.html)
+
+This product includes/uses software(s) developed by 'Damien Miller' (https://github.com/djmdjm)
+  - jBCrypt
+      License: ISC  (https://opensource.org/licenses/isc-license)
+
+This product includes/uses software(s) developed by 'Day Software' (http://www.day.com)
+  - Content Repository for JavaTM Technology API (http://www.jcp.org/en/jsr/detail?id=283)
+      License: Day Specification License  (http://www.day.com/dam/day/downloads/jsr283/day-spec-license.htm)
+      License: Day Specification License addendum  (http://www.day.com/content/dam/day/downloads/jsr283/LICENSE.txt)
+
+This product includes/uses software(s) developed by 'Dough Lea' (http://gee.cs.oswego.edu/dl/classes/EDU/oswego/cs/dl/util/concurrent/intro.html)
+  - Dough Lea's util.concurrent package
+      License: Public Domain  (http://gee.cs.oswego.edu/dl/classes/EDU/oswego/cs/dl/util/concurrent/intro.html)
+      License: TECHNOLOGY LICENSE FROM SUN MICROSYSTEMS, INC. TO DOUG LEA  (http://gee.cs.oswego.edu/dl/classes/EDU/oswego/cs/dl/util/sun-u.c.license.pdf)
+
+This product includes/uses software(s) developed by 'Dustin Spicuzza' (http://www.virtualroadside.com)
+  - curvesapi
+      License: BSD License  (http://opensource.org/licenses/BSD-3-Clause)
+
+This product includes/uses software(s) developed by 'Eclipse Foundation' (https://www.eclipse.org)
+  - Jakarta Activation (https://github.com/eclipse-ee4j/jaf)
+      License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - istack common utility code runtime (https://projects.eclipse.org/projects/ee4j)
+      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - Jakarta Activation API jar (https://github.com/eclipse-ee4j/jaf)
+      License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - Jakarta Annotations API (https://projects.eclipse.org/projects/ee4j.ca)
+      License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)
+      License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+  - Jakarta Bean Validation API (https://beanvalidation.org)
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jakarta.xml.bind-api (https://github.com/eclipse-ee4j/jaxb-api)
+      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - JAXB Runtime (https://javaee.github.io/jaxb-v2/)
+      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - TXW2 Runtime (https://javaee.github.io/jaxb-v2/)
+      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+
+This product includes/uses software(s) developed by 'Eclipse Foundation' (https://www.eclipse.org/org/foundation/)
+  - javax.ws.rs-api (https://github.com/eclipse-ee4j/jaxrs-api)
+      License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)
+      License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+
+This product includes/uses software(s) developed by 'Ezmorph' (http://ezmorph.sourceforge.net)
+  - ezmorph
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'FasterXML' (http://fasterxml.com)
+  - Woodstox (https://github.com/FasterXML/woodstox)
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'FasterXML' (http://fasterxml.com/)
+  - Jackson-annotations (http://github.com/FasterXML/jackson)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-core (https://github.com/FasterXML/jackson-core)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jackson-databind (http://github.com/FasterXML/jackson)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-dataformat-XML (https://github.com/FasterXML/jackson-dataformat-xml)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-dataformat-YAML (https://github.com/FasterXML/jackson-dataformats-text)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson datatype: JSR310 (https://github.com/FasterXML/jackson-modules-java8)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-JAXRS: base (http://github.com/FasterXML/jackson-jaxrs-providers)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson-JAXRS: JSON (http://github.com/FasterXML/jackson-jaxrs-providers)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson module: Old JAXB Annotations (javax.xml.bind) (https://github.com/FasterXML/jackson-modules-base)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'fasterxml.com' (http://fasterxml.com)
+  - Stax2 API (http://github.com/FasterXML/stax2-api)
+      License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+
+This product includes/uses software(s) developed by 'Gagravarr' (https://github.com/Gagravarr)
+  - Ogg and Vorbis for Java, Core
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika plugin for Ogg, Vorbis and FLAC
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Giovanni Lovato' (https://github.com/heruan/date-range-field)
+  - DateRangeField Add-on
+      License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'GlassFish Community' (http://glassfish.org)
+  - Expression Language API 2.2 (http://uel.java.net)
+      License: CDDL + GPLv2 with classpath exception  (http://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+
+This product includes/uses software(s) developed by 'Google' (http://www.google.com/)
+  - Google APIs Client Library for Java (https://github.com/googleapis/google-api-java-client)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Google' (https://www.google.com/)
+  - Google HTTP Client Library for Java (https://github.com/googleapis/google-http-java-client)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HTTP transport v2 for the Google HTTP Client Library for Java. (https://github.com/googleapis/google-http-java-client)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - GSON extensions to the Google HTTP Client Library for Java. (https://github.com/googleapis/google-http-java-client)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackson 2 extensions to the Google HTTP Client Library for Java. (https://github.com/googleapis/google-http-java-client)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Google OAuth Client Library for Java (https://github.com/googleapis/google-oauth-java-client)
+      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Google Inc.' (https://github.com/google/error-prone)
+  - error-prone annotations
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Google LLC' (http://www.google.com)
+  - AutoService (https://github.com/google/auto/tree/master/service)
+      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Google, Inc.' (http://www.google.com)
+  - Gson
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Guava: Google Core Libraries for Java
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Google Guice - Core Library (https://github.com/google/guice)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Google Guice - Extensions - MultiBindings (https://github.com/google/guice)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'H2 Group' (http://www.h2database.com/)
+  - H2 Database Engine
+      License: MPL 2.0  (https://www.mozilla.org/en-US/MPL/2.0/)
+      License: EPL 1.0  (https://opensource.org/licenses/eclipse-1.0.php)
+
+This product includes/uses software(s) developed by 'Henri Kerola' (https://vaadin.com/directory#!addon/gwt-graphics)
+  - gwt-graphics
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'jai-imageio GitHub group' (https://github.com/jai-imageio/)
+  - Java Advanced Imaging Image I/O Tools API core (standalone) (https://github.com/jai-imageio/jai-imageio-core)
+      License: BSD 3-clause License w/nuclear disclaimer  (LICENSE.txt)
+
+This product includes/uses software(s) developed by 'JBoss by Red Hat' (http://www.jboss.org)
+  - Bean Validation API
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - JBoss Logging 3 (http://www.jboss.org)
+      License: Apache License, version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - RESTEasy Client API (https://jboss.org/resteasy)
+      License: Apache License 2.0  (https://repository.jboss.org/licenses/apache-2.0.txt)
+  - RESTEasy Core (https://jboss.org/resteasy)
+      License: Apache License 2.0  (https://repository.jboss.org/licenses/apache-2.0.txt)
+  - RESTEasy Core SPI (https://jboss.org/resteasy)
+      License: Apache License 2.0  (https://repository.jboss.org/licenses/apache-2.0.txt)
+  - RESTEasy Jackson 2 Provider (https://jboss.org/resteasy)
+      License: Apache License 2.0  (https://repository.jboss.org/licenses/apache-2.0.txt)
+  - RESTEasy Multipart Provider (https://jboss.org/resteasy)
+      License: Apache License 2.0  (https://repository.jboss.org/licenses/apache-2.0.txt)
+  - JAX-RS 2.1: The Java(TM) API for RESTful Web Services (http://www.jboss.org)
+      License: Common Development and Distribution License 1.0  (http://repository.jboss.org/licenses/cddl.txt)
+      License: GNU General Public License, Version 2 with the Classpath Exception  (http://repository.jboss.org/licenses/gpl-2.0-ce.txt)
+
+This product includes/uses software(s) developed by 'JDOM' (http://www.jdom.org)
+  - JDOM (http://www.jdom.org)
+      License: Similar to Apache License but with the acknowledgment clause removed  (https://raw.github.com/hunterhacker/jdom/master/LICENSE.txt)
+
+This product includes/uses software(s) developed by 'JH Labs' (www.jhlabs.com)
+  - JHLabs Image Processing Filters
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+This product includes/uses software(s) developed by 'Joe Walnes, Henri Tremblay, Leonardo Mesquita'
+  - Objenesis (http://objenesis.org)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'John Casey' (https://github.com/jdcasey)
+  - markdown4j
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'John Cowan' (http://home.ccil.org/~cowan/XML/tagsoup/)
+  - TagSoup
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Jonathan Hedley' (https://jhy.io/)
+  - jsoup Java HTML Parser (https://jsoup.org/)
+      License: The MIT License  (https://jsoup.org/license)
+
+This product includes/uses software(s) developed by 'Json-lib' (http://json-lib.sourceforge.net)
+  - json-lib (http://json-lib.sourceforge.net)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Kostas Kougios' (https://github.com/kostaskougios)
+  - cloning
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+This product includes/uses software(s) developed by 'Lasse Collin' (http://tukaani.org)
+  - XZ for Java
+      License: Public Domain 
+
+This product includes/uses software(s) developed by 'Magnolia International Ltd.' (http://www.magnolia-cms.com)
+  - Magnolia Core (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia empty webapp
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia empty webapp
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Internationalization Framework (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia JAAS (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Mail module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-module-rssaggregator
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Rendering (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Templating (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-about-app
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Admincentral
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Community product-descriptor
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Community webapp
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Community webapp
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Module Cache APP
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Cache Browser App
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Module Cache
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Module EhCache3
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Categorization Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Categorization App Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Categorization App Compatibility Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Categorization Module RSS Integration
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Categorization Support Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-contacts
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Content Importer Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Configuration Framework (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia FreeMarker Support (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Resource Loader (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Virtual URI (http://www.magnolia-cms.com)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia DAM API
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Assets App
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia DAM App
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia DAM App JCR
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia DAM Core
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia DAM Imaging-Provider
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia DAM JCR-Provider
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia DAM Templating
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Definitions app
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Travel Demo Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Travel Tours Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Form Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Groovy Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Icons
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Imaging Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Imaging Support Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-jcr-browser-app
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia JCR Tools
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Czech
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : German
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Spanish
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : French
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Croatian
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Italian
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Japanese
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Korean
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Dutch
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Polish
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Chinese (PRC)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Language files : Chinese (Taiwan)
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Log Tools Magnolia Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-messages-app
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-pages-app
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-pages-editor-external
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-pages-editor-widget
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Site Aware Spa Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-spa-rendering
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Password Manager
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Periscope API
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Periscope Core
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Speech recognition module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Publishing App
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Publishing Core
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Publishing Receiver
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Publishing Sender
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-module-public-user-registration
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Resources Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Resources App Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Resources templating Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia REST Content Delivery
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia REST Integration
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia REST Services
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia REST Client Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia REST Client App Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-sample-app
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Scheduler Module: Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-security-app
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Site
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Site App
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Task Management Magnolia Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-tasks-app
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Templating Essentials Imaging Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Templating Essentials Models Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Templating Kit
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Content Types Module
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Resurface Theme
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia Admincentral 5.0 Compatibility
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-ui-api
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia UI Framework
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia UI Framework 5.0 Compatibility
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - Magnolia UI JCR integration
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-ui-mediaeditor
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-ui-vaadin-common-widgets
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-ui-vaadin-theme
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-usage-metrics
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - vaadin-compatibility-aceeditor
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - vaadin-compatibility-ckeditor
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - vaadin-compatibility-context-menu
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - vaadin-compatibility-contexthelp
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+  - magnolia-vaadin-widgetset
+      License: GPLv3  (http://www.gnu.org/licenses/gpl-3.0.txt)
+      License: Magnolia Network Agreement  (http://www.magnolia-cms.com/mna.pdf)
+
+This product includes/uses software(s) developed by 'Marco Schmidt' (http://schmidt.devlib.org/image-info)
+  - imageinfo
+      License: Public Domain 
+
+This product includes/uses software(s) developed by 'Matti Tahvonen' (https://github.com/viritin/viritin/)
+  - Viritin
+      License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Viritin-Compatbility
+      License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Mycila' (http://www.mycila.com/)
+  - Mycila Guice :: Extensions :: Closeable Injector
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Mycila Guice :: Extensions :: Injection
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+  - Mycila Guice :: Extensions :: JSR-250
+      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+This product includes/uses software(s) developed by 'OpenHMS' (https://openhms.sourceforge.io/)
+  - Jackcess (https://jackcess.sourceforge.io)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackcess Encrypt (http://jackcessencrypt.sf.net)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Oracle' (http://www.oracle.com)
+  - Jakarta Mail API (http://eclipse-ee4j.github.io/mail)
+      License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)
+      License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+      License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+  - JavaBeans Activation Framework (JAF)
+      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+  - JSR 374 (JSON Processing) API (https://javaee.github.io/jsonp)
+      License: Dual license consisting of the CDDL v1.1 and GPL v2  (https://oss.oracle.com/licenses/CDDL+GPL-1.1)
+  - JavaMail API (compat) (http://kenai.com/projects/javamail)
+      License: CDDL  (http://www.sun.com/cddl)
+      License: GPLv2+CE  (https://glassfish.dev.java.net/public/CDDL+GPL.html)
+  - jaxb-api
+      License: GNU General Public License, Version 2 with Classpath Exception  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+      License: Common Development and Distribution License, Version 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+  - JSR 374 (JSON Processing) Default Provider (https://javaee.github.io/jsonp)
+      License: Dual license consisting of the CDDL v1.1 and GPL v2  (https://oss.oracle.com/licenses/CDDL+GPL-1.1)
+
+This product includes/uses software(s) developed by 'oshi' (https://github.com/oshi/)
+  - oshi-core (https://github.com/oshi/oshi)
+      License: SPDX-License-Identifier: MIT  (https://opensource.org/licenses/MIT)
+
+This product includes/uses software(s) developed by 'OW2' (http://www.ow2.org/)
+  - asm (http://asm.ow2.io/)
+      License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+
+This product includes/uses software(s) developed by 'QOS.ch' (http://www.qos.ch)
+  - JCL 1.2 implemented over SLF4J (http://www.slf4j.org)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - SLF4J API Module (http://www.slf4j.org)
+      License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+This product includes/uses software(s) developed by 'Reactive Streams Special Interest Group' (http://www.reactive-streams.org/)
+  - reactive-streams
+      License: MIT-0  (https://spdx.org/licenses/MIT-0.html)
+
+This product includes/uses software(s) developed by 'Red Hat' (https://www.redhat.com)
+  - RESTEasy JAX-RS Client
+      License: Apache License 2.0  (https://repository.jboss.org/licenses/apache-2.0.txt)
+  - Resteasy JAXB Provider
+      License: Apache License 2.0  (https://repository.jboss.org/licenses/apache-2.0.txt)
+
+This product includes/uses software(s) developed by 'Richard Johnson' (https://github.com/rjohnsondev)
+  - java-libpst
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Robert Važan' (https://robert.machinezoo.com/)
+  - NoException (https://noexception.machinezoo.com/)
+      License: Apache License 2.0  (https://github.com/robertvazan/noexception/blob/master/LICENSE)
+
+This product includes/uses software(s) developed by 'Rome' (http://rometools.github.io/rome/)
+  - rome
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - rome-fetcher
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - rome-utils
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'ronmamo' (https://github.com/ronmamo)
+  - Reflections
+      License: WTFPL  (http://www.wtfpl.net/)
+      License: The New BSD License  (http://www.opensource.org/licenses/bsd-license.html)
+
+This product includes/uses software(s) developed by 'Sami Ekblad' (https://github.com/samie)
+  - ConfirmDialog
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Sami Viitanen' (https://github.com/alump/CKEditor/)
+  - CKEditor
+      License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Shigeru Chiba' (https://github.com/jboss-javassist)
+  - Javassist
+      License: MPL 1.1  (http://www.mozilla.org/MPL/MPL-1.1.html)
+      License: LGPL 2.1  (http://www.gnu.org/licenses/lgpl-2.1.html)
+      License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+
+This product includes/uses software(s) developed by 'Tatu Lund' (https://github.com/tatulund/GridFastNavigation/)
+  - GridFastNavigation Add-on
+      License: Apache 2  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Tatu Saloranta' (https://github.com/cowtowncoder)
+  - Java UUID Generator
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+      License: GNU Lesser General Public License v2.1  (http://www.gnu.org/licenses/lgpl.html)
+
+This product includes/uses software(s) developed by 'Terracotta' (http://terracotta.org)
+  - Ehcache SizeOf Engine (https://github.com/ehcache/sizeof)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Terracotta Inc., a wholly-owned subsidiary of Software AG USA, Inc.' (http://terracotta.org)
+  - Ehcache 3 API module (http://ehcache.org)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Ehcache 3 Core module (http://ehcache.org)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Ehcache 3 Implementation module (http://ehcache.org)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Terracotta, Inc.' (http://www.quartz-scheduler.org)
+  - Quartz Enterprise Job Scheduler
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Terracotta, Inc.' (http://www.terracotta.org)
+  - Terracotta Off-Heap Store
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Terracotta Statistics
+      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'The Apache Software Foundation' (http://pdfbox.apache.org)
+  - Apache FontBox (http://pdfbox.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - PDFBox JBIG2 ImageIO plugin (https://www.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache JempBox (http://www.apache.org/)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache PDFBox (https://www.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache PDFBox Debugger (https://www.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache PDFBox tools (https://www.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache XmpBox (https://www.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'The Apache Software Foundation' (http://www.apache.org)
+  - Apache Tika core (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'The Apache Software Foundation' (http://www.apache.org/)
+  - Commons Collections (http://commons.apache.org/collections/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons DBCP (http://commons.apache.org/dbcp/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Digester (http://commons.apache.org/digester/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Lang (http://commons.apache.org/lang/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Pool
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit Object Content Mapping 2.x (http://jackrabbit.apache.org/object-content-mapping.html)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Exec (http://commons.apache.org/proper/commons-exec/)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Math (http://commons.apache.org/proper/commons-math/)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Commons Proxy (http://commons.apache.org/proxy/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - HttpClient
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - HttpCore
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpClient Mime (http://hc.apache.org/httpcomponents-client-ga)
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Lucene Core (http://lucene.apache.org/java)
+      License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons BeanUtils (https://commons.apache.org/proper/commons-beanutils/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - CLI
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Codec (https://commons.apache.org/proper/commons-codec/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons FileUpload (https://commons.apache.org/proper/commons-fileupload/)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons IO (https://commons.apache.org/proper/commons-io/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Net (https://commons.apache.org/proper/commons-net/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons BeanUtils (https://commons.apache.org/proper/commons-beanutils/)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Collections (https://commons.apache.org/proper/commons-collections/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons CSV (https://commons.apache.org/proper/commons-csv/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Text (https://commons.apache.org/proper/commons-text)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit Core (http://jackrabbit.apache.org/)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit Data (http://jackrabbit.apache.org/)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit JCR Commons (http://jackrabbit.apache.org/)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit SPI (http://jackrabbit.apache.org/)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit SPI Commons (http://jackrabbit.apache.org/)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Jackrabbit API (http://jackrabbit.apache.org/)
+      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache James :: Mime4j :: Core (http://james.apache.org/mime4j)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache James :: Mime4j :: DOM (http://james.apache.org/mime4j)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache James :: Mime4j :: Storage (http://james.apache.org/mime4j)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Log4j API (https://logging.apache.org/log4j/2.x/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Log4j Core (https://logging.apache.org/log4j/2.x/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Log4j SLF4J Binding (https://logging.apache.org/log4j/2.x/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika Apple parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika audiovideo parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika cad parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika code parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika crypto parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika digest commons (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika font parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika html commons (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika html parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika image parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika mail commons (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika mail parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika Microsoft parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika miscellaneous office format parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika news parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika OCR parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika PDF parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika package parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika text parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika WARC parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika XML parser module (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika XMP commons (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika ZIP commons (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Tika standard parser package (https://tika.apache.org/)
+      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'The Jaxen Project' (https://www.cafeconleche.org/jaxen)
+  - jaxen
+      License: New BSD  (http://jaxen.codehaus.org/license.html)
+
+This product includes/uses software(s) developed by 'The Legion of the Bouncy Castle Inc.' (http://www.bouncycastle.org)
+  - Bouncy Castle S/MIME API
+      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+  - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs
+      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+  - Bouncy Castle Provider
+      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+
+This product includes/uses software(s) developed by 'The University of Maryland' (https://www.umd.edu/)
+  - FindBugs-Annotations
+      License: GNU Lesser General Public License, Version 2.1  (https://code.google.com/p/findbugs/source/browse/findbugs/licenses/LICENSE.txt)
+  - FindBugs-jsr305
+      License: GNU Lesser General Public License, Version 2.1  (https://code.google.com/p/findbugs/source/browse/findbugs/licenses/LICENSE.txt)
+
+This product includes/uses software(s) developed by 'thkoch2001' (https://github.com/thkoch2001/juniversalchardet)
+  - juniversalchardet
+      License: Mozilla Public License 1.1 (MPL 1.1)  (http://www.mozilla.org/MPL/MPL-1.1.html)
+
+This product includes/uses software(s) developed by 'Thorben von Hacht (Bonprix Handelsgesellschaft mbH)' (https://github.com/bonprix/vaadin-combobox-multiselect)
+  - ComboBoxMultiselect Add-on
+      License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+
+This product includes/uses software(s) developed by 'Tim Allison' (https://github.com/tballison)
+  - JMatIO
+      License: New BSD  (https://opensource.org/licenses/BSD-3-Clause)
+
+This product includes/uses software(s) developed by 'TwelveMonkeys' (https://github.com/haraldk/TwelveMonkeys)
+  - TwelveMonkeys :: Common :: Image
+      License: New/3 clause BSD License  (https://github.com/haraldk/TwelveMonkeys#license)
+  - TwelveMonkeys :: Common :: IO
+      License: New/3 clause BSD License  (https://github.com/haraldk/TwelveMonkeys#license)
+  - TwelveMonkeys :: Common :: Language support
+      License: New/3 clause BSD License  (https://github.com/haraldk/TwelveMonkeys#license)
+  - TwelveMonkeys :: ImageIO :: Core
+      License: New/3 clause BSD License  (https://github.com/haraldk/TwelveMonkeys#license)
+  - TwelveMonkeys :: ImageIO :: JPEG plugin
+      License: New/3 clause BSD License  (https://github.com/haraldk/TwelveMonkeys#license)
+  - TwelveMonkeys :: ImageIO :: Metadata
+      License: New/3 clause BSD License  (https://github.com/haraldk/TwelveMonkeys#license)
+  - TwelveMonkeys :: ImageIO :: TIFF plugin
+      License: New/3 clause BSD License  (https://github.com/haraldk/TwelveMonkeys#license)
+
+This product includes/uses software(s) developed by 'Vaadin' (https://github.com/vaadin/gentyref)
+  - GenTyRef
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Vaadin Community' (http://vaadin.com/forum/)
+  - EasyUploads
+      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Vaadin Ltd'
+  - vaadin-client (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-compatibility-client (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-compatibility-server (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-compatibility-shared (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-compatibility-themes (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-push (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-server (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-shared (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - vaadin-themes (https://vaadin.com/)
+      License: Apache License Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+This product includes/uses software(s) developed by 'Various authors' (https://code.google.com/p/atinject/people/list)
+  - javax.inject
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'XmlBeans' (https://xmlbeans.apache.org/)
+  - XmlBeans (https://xmlbeans.apache.org/)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Zaxxer.com' (https://github.com/brettwooldridge)
+  - HikariCP (https://github.com/brettwooldridge/HikariCP)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+This product includes/uses software(s) developed by 'Zaxxer.com' (https://github.com/brettwooldridge/SparseBitSet)
+  - SparseBitSet (https://github.com/brettwooldridge/SparseBitSet)
+      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+

@@ -1,0 +1,1480 @@
+31-Mar-2023 22:02:58.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+31-Mar-2023 22:02:58.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+31-Mar-2023 22:02:58.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+31-Mar-2023 22:02:58.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-Mar-2023 22:02:58.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-Mar-2023 22:02:58.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2023 22:02:58.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+31-Mar-2023 22:02:58.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20+36-2344
+31-Mar-2023 22:02:58.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2023 22:02:58.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73
+31-Mar-2023 22:02:58.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73
+31-Mar-2023 22:02:59.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2023 22:02:59.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2023 22:02:59.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2023 22:02:59.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2023 22:02:59.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2023 22:02:59.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\conf\logging.properties
+31-Mar-2023 22:02:59.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2023 22:02:59.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2023 22:02:59.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2023 22:02:59.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+31-Mar-2023 22:02:59.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+31-Mar-2023 22:02:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+31-Mar-2023 22:02:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2023 22:02:59.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73
+31-Mar-2023 22:02:59.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73
+31-Mar-2023 22:02:59.008 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\temp
+31-Mar-2023 22:02:59.016 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Hien Lam\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk-20\bin;C:\Program Files\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Program Files\Git\cmd;C:\Users\Hien Lam\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Hien Lam\AppData\Local\Programs\Python\Python311\;C:\Users\Hien Lam\AppData\Local\Microsoft\WindowsApps;C:\Users\Hien Lam\AppData\Roaming\nvm;C:\Program Files\nodejs;.]
+31-Mar-2023 22:02:59.463 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 22:02:59.498 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [792] milliseconds
+31-Mar-2023 22:02:59.565 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2023 22:02:59.565 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+31-Mar-2023 22:02:59.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaAuthor]
+31-Mar-2023 22:03:30.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaAuthor] has finished in [31,210] ms
+31-Mar-2023 22:03:30.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaPublic]
+31-Mar-2023 22:03:57.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaPublic] has finished in [26,687] ms
+31-Mar-2023 22:03:57.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\ROOT]
+31-Mar-2023 22:03:57.502 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\ROOT] has finished in [29] ms
+31-Mar-2023 22:03:57.506 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 22:03:57.530 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [58027] milliseconds
+31-Mar-2023 22:17:52.437 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2023 22:17:59.339 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 22:17:59.345 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2023 22:17:59.540 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaAuthor] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2023 22:17:59.541 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-13] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.542 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-15] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.543 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.544 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-17] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.544 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-18] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.545 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-19] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.546 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-20] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.546 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-21] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.547 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-22] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.549 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-23] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.552 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-24] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.553 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-25] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.553 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-26] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.554 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-27] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.555 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-28] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.555 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-29] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.556 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-30] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.556 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-31] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.557 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-32] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.558 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-33] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.559 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-34] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.560 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-35] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.560 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-36] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.562 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-37] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.562 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-38] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.563 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Transient File Reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:234)
+ org.apache.jackrabbit.util.TransientFileFactory$ReaperThread.run(TransientFileFactory.java:192)
+31-Mar-2023 22:17:59.563 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-54] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.565 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4cafc410]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 22:17:59.568 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4cafc410]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 22:17:59.676 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaPublic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2023 22:17:59.683 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 22:17:59.692 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 22:17:59.697 INFO [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1420)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1259)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at org.apache.tika.parser.AbstractExternalProcessParser.lambda$static$0(AbstractExternalProcessParser.java:43)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:17:59.697 INFO [Thread-8] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1420)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1259)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at org.apache.tika.parser.AbstractExternalProcessParser.lambda$static$0(AbstractExternalProcessParser.java:43)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 22:39:14.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+31-Mar-2023 22:39:14.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+31-Mar-2023 22:39:14.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+31-Mar-2023 22:39:14.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+31-Mar-2023 22:39:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+31-Mar-2023 22:39:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Mar-2023 22:39:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+31-Mar-2023 22:39:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20+36-2344
+31-Mar-2023 22:39:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Mar-2023 22:39:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73
+31-Mar-2023 22:39:14.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73
+31-Mar-2023 22:39:14.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+31-Mar-2023 22:39:14.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+31-Mar-2023 22:39:14.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+31-Mar-2023 22:39:14.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+31-Mar-2023 22:39:14.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+31-Mar-2023 22:39:14.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\conf\logging.properties
+31-Mar-2023 22:39:14.164 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Mar-2023 22:39:14.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Mar-2023 22:39:14.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Mar-2023 22:39:14.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms64M
+31-Mar-2023 22:39:14.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2048M
+31-Mar-2023 22:39:14.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+31-Mar-2023 22:39:14.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+31-Mar-2023 22:39:14.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73
+31-Mar-2023 22:39:14.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73
+31-Mar-2023 22:39:14.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\temp
+31-Mar-2023 22:39:14.175 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Hien Lam\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk-20\bin;C:\Program Files\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Program Files\Git\cmd;C:\Users\Hien Lam\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Hien Lam\AppData\Local\Programs\Python\Python311\;C:\Users\Hien Lam\AppData\Local\Microsoft\WindowsApps;C:\Users\Hien Lam\AppData\Roaming\nvm;C:\Program Files\nodejs;.]
+31-Mar-2023 22:39:14.513 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 22:39:14.536 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [561] milliseconds
+31-Mar-2023 22:39:14.574 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+31-Mar-2023 22:39:14.574 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+31-Mar-2023 22:39:14.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaAuthor]
+31-Mar-2023 22:39:52.742 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+31-Mar-2023 22:39:52.742 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+31-Mar-2023 22:39:52.805 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+31-Mar-2023 22:39:52.823 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+31-Mar-2023 22:39:52.836 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+31-Mar-2023 22:39:52.875 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+31-Mar-2023 22:39:52.877 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+31-Mar-2023 22:39:52.877 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+31-Mar-2023 22:39:52.879 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+31-Mar-2023 22:39:52.880 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+31-Mar-2023 22:39:52.882 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+31-Mar-2023 22:39:52.883 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+31-Mar-2023 22:39:52.884 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+31-Mar-2023 22:39:52.887 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+31-Mar-2023 22:39:52.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+31-Mar-2023 22:39:52.888 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+31-Mar-2023 22:39:52.889 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+31-Mar-2023 22:39:52.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+31-Mar-2023 22:39:52.890 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+31-Mar-2023 22:39:52.892 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.893 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.893 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.894 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+31-Mar-2023 22:39:52.894 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.895 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.896 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.896 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.897 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:52.897 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+31-Mar-2023 22:39:52.898 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+31-Mar-2023 22:39:52.900 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+31-Mar-2023 22:39:52.901 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+31-Mar-2023 22:39:52.901 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+31-Mar-2023 22:39:52.902 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+31-Mar-2023 22:39:52.902 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+31-Mar-2023 22:39:52.902 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+31-Mar-2023 22:39:52.903 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+31-Mar-2023 22:39:52.903 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+31-Mar-2023 22:39:52.903 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+31-Mar-2023 22:39:52.904 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+31-Mar-2023 22:39:52.908 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+31-Mar-2023 22:39:52.909 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+31-Mar-2023 22:39:52.909 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+31-Mar-2023 22:39:52.910 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.73 using javax.servlet/3.0
+31-Mar-2023 22:39:52.910 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+31-Mar-2023 22:39:52.918 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+31-Mar-2023 22:39:53.859 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+31-Mar-2023 22:39:53.860 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+31-Mar-2023 22:39:53.874 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+31-Mar-2023 22:39:53.884 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+31-Mar-2023 22:39:53.885 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+31-Mar-2023 22:39:53.910 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+31-Mar-2023 22:39:53.910 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+31-Mar-2023 22:39:53.911 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+31-Mar-2023 22:39:53.912 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+31-Mar-2023 22:39:53.912 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+31-Mar-2023 22:39:53.913 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+31-Mar-2023 22:39:53.913 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+31-Mar-2023 22:39:53.913 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+31-Mar-2023 22:39:53.914 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+31-Mar-2023 22:39:53.914 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+31-Mar-2023 22:39:53.914 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+31-Mar-2023 22:39:53.914 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+31-Mar-2023 22:39:53.914 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+31-Mar-2023 22:39:53.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+31-Mar-2023 22:39:53.915 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.916 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.916 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.917 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+31-Mar-2023 22:39:53.917 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.918 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.918 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.918 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.919 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.919 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:53.919 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+31-Mar-2023 22:39:53.920 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+31-Mar-2023 22:39:53.921 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+31-Mar-2023 22:39:53.921 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+31-Mar-2023 22:39:53.922 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+31-Mar-2023 22:39:53.923 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+31-Mar-2023 22:39:53.924 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+31-Mar-2023 22:39:53.924 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+31-Mar-2023 22:39:53.927 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+31-Mar-2023 22:39:53.928 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+31-Mar-2023 22:39:53.929 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+31-Mar-2023 22:39:53.929 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+31-Mar-2023 22:39:53.930 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+31-Mar-2023 22:39:53.930 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+31-Mar-2023 22:39:53.931 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+31-Mar-2023 22:39:53.931 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.73 using javax.servlet/3.0
+31-Mar-2023 22:39:53.932 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+31-Mar-2023 22:39:53.933 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+31-Mar-2023 22:39:53.937 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+31-Mar-2023 22:39:53.938 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addAtmosphereHandler Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+31-Mar-2023 22:39:53.954 INFO [main] org.atmosphere.cpr.AtmosphereFramework.autoConfigureService Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+31-Mar-2023 22:39:53.964 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+31-Mar-2023 22:39:53.965 INFO [main] org.atmosphere.cpr.AtmosphereFramework.initWebSocket Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+31-Mar-2023 22:39:53.995 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Installing Default AtmosphereInterceptors
+31-Mar-2023 22:39:53.995 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+31-Mar-2023 22:39:53.996 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+31-Mar-2023 22:39:53.997 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+31-Mar-2023 22:39:53.997 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+31-Mar-2023 22:39:53.998 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.HeartbeatInterceptor : Heartbeat Interceptor Support
+31-Mar-2023 22:39:53.998 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+31-Mar-2023 22:39:53.999 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+31-Mar-2023 22:39:53.999 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+31-Mar-2023 22:39:54.000 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+31-Mar-2023 22:39:54.001 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+31-Mar-2023 22:39:54.001 INFO [main] org.atmosphere.cpr.AtmosphereFramework.newAInterceptor 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+31-Mar-2023 22:39:54.002 INFO [main] org.atmosphere.cpr.AtmosphereFramework.configureAtmosphereInterceptor Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+31-Mar-2023 22:39:54.003 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+31-Mar-2023 22:39:54.003 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.003 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.004 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.005 INFO [main] org.atmosphere.interceptor.HeartbeatInterceptor.configure HeartbeatInterceptor configured with padding value 'X', client frequency 60 seconds and server frequency 0 seconds
+31-Mar-2023 22:39:54.005 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Heartbeat Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.005 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.006 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.006 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.007 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.007 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+31-Mar-2023 22:39:54.007 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+31-Mar-2023 22:39:54.008 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+31-Mar-2023 22:39:54.008 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+31-Mar-2023 22:39:54.008 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+31-Mar-2023 22:39:54.009 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Shared List Resources: false
+31-Mar-2023 22:39:54.009 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Broadcaster Polling Wait Time 100
+31-Mar-2023 22:39:54.009 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Shared ExecutorService supported: true
+31-Mar-2023 22:39:54.010 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+31-Mar-2023 22:39:54.010 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Async I/O Thread Pool Size: 200
+31-Mar-2023 22:39:54.011 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+31-Mar-2023 22:39:54.011 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+31-Mar-2023 22:39:54.011 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+31-Mar-2023 22:39:54.012 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Invoke AtmosphereInterceptor on WebSocket message true
+31-Mar-2023 22:39:54.012 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info HttpSession supported: true
+31-Mar-2023 22:39:54.013 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+31-Mar-2023 22:39:54.013 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere is using async support: org.atmosphere.container.Servlet30CometSupport running under container: Apache Tomcat/9.0.73 using javax.servlet/3.0
+31-Mar-2023 22:39:54.013 INFO [main] org.atmosphere.cpr.AtmosphereFramework.info Atmosphere Framework 2.4.30.vaadin4 started.
+31-Mar-2023 22:39:54.015 INFO [main] org.atmosphere.cpr.AtmosphereFramework.addInterceptorToAllWrappers Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+31-Mar-2023 22:39:54.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaAuthor] has finished in [39,472] ms
+31-Mar-2023 22:39:54.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaPublic]
+31-Mar-2023 22:40:19.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\magnoliaPublic] has finished in [25,422] ms
+31-Mar-2023 22:40:19.478 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\ROOT]
+31-Mar-2023 22:40:19.500 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Game\magnolia-community-demo-webapp-6.2.32-tomcat-bundle\magnolia-6.2.32\apache-tomcat-9.0.73\webapps\ROOT] has finished in [22] ms
+31-Mar-2023 22:40:19.504 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 22:40:19.526 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [64989] milliseconds
+31-Mar-2023 23:07:41.069 SEVERE [http-nio-8080-exec-6] freemarker.log._JULLoggerFactory$JULLogger.error Error executing FreeMarker template
+	FreeMarker template error:
+	When calling macro "tourTypeIcon", required parameter "icon" (parameter #1) was specified, but had null/missing value.
+
+----
+Tip: If the parameter value expression on the caller side is known to be legally null/missing, you may want to specify a default value for it with the "!" operator, like paramValue!defaultValue.
+----
+
+	----
+	FTL stack trace ("~" means nesting-related):
+	- Failed at: #macro tourTypeIcon icon tourTypeName...  [in template "tours/templates/macros/tourTypeIcon.ftl" in macro "tourTypeIcon" at line 1, column 1]
+	- Reached through: @tourTypeIcon tourType.icon, tourType...  [in template "tours/templates/components/tourTypeTeaserRow.ftl" at line 19, column 25]
+	----
+
+	Java stack trace (for programmers):
+	----
+	freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+		at freemarker.core.Macro$Context.checkParamsSetAndApplyDefaults(Macro.java:308)
+		at freemarker.core.Environment.invokeMacroOrFunctionCommonPart(Environment.java:876)
+		at freemarker.core.Environment.invokeMacro(Environment.java:813)
+		at freemarker.core.UnifiedCall.accept(UnifiedCall.java:84)
+		at freemarker.core.Environment.visit(Environment.java:371)
+		at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:291)
+		at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+		at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+		at freemarker.core.Environment.visitIteratorBlock(Environment.java:645)
+		at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+		at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+		at freemarker.core.Environment.visit(Environment.java:335)
+		at freemarker.core.Environment.visit(Environment.java:341)
+		at freemarker.core.Environment.process(Environment.java:314)
+		at freemarker.template.Template.process(Template.java:383)
+		at info.magnolia.freemarker.FreemarkerHelper.render(FreemarkerHelper.java:172)
+		at info.magnolia.rendering.renderer.FreemarkerRenderer.onRender(FreemarkerRenderer.java:100)
+		at info.magnolia.rendering.renderer.AbstractRenderer.render(AbstractRenderer.java:166)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.templating.elements.ComponentElement.begin(ComponentElement.java:120)
+		at info.magnolia.templating.renderers.NoScriptRenderer.onRender(NoScriptRenderer.java:103)
+		at info.magnolia.templating.renderers.NoScriptRenderer.render(NoScriptRenderer.java:81)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.templating.elements.AreaElement.end(AreaElement.java:289)
+		at info.magnolia.templating.freemarker.AbstractDirective.execute(AbstractDirective.java:97)
+		at freemarker.core.Environment.visit(Environment.java:452)
+		at freemarker.core.UnifiedCall.accept(UnifiedCall.java:102)
+		at freemarker.core.Environment.visit(Environment.java:335)
+		at freemarker.core.Environment.visit(Environment.java:341)
+		at freemarker.core.Environment.process(Environment.java:314)
+		at freemarker.template.Template.process(Template.java:383)
+		at info.magnolia.freemarker.FreemarkerHelper.render(FreemarkerHelper.java:172)
+		at info.magnolia.rendering.renderer.FreemarkerRenderer.onRender(FreemarkerRenderer.java:100)
+		at info.magnolia.rendering.renderer.AbstractRenderer.render(AbstractRenderer.java:166)
+		at info.magnolia.module.site.renderer.SiteAwareRendererWrapper.render(SiteAwareRendererWrapper.java:108)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.rendering.engine.RenderingFilter.render(RenderingFilter.java:195)
+		at info.magnolia.rendering.engine.RenderingFilter.handleTemplateRequest(RenderingFilter.java:140)
+		at info.magnolia.rendering.engine.RenderingFilter.doFilter(RenderingFilter.java:94)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.rendering.model.ModelExecutionFilter.doFilter(ModelExecutionFilter.java:109)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.AggregatorFilter.doFilter(AggregatorFilter.java:133)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.RepositoryMappingFilter.doFilter(RepositoryMappingFilter.java:121)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58)
+		at info.magnolia.module.cache.executor.CompositeExecutor.processCacheRequest(CompositeExecutor.java:66)
+		at info.magnolia.module.cache.filter.CacheFilter.doFilter(CacheFilter.java:164)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.virtualuri.VirtualUriFilter.doFilter(VirtualUriFilter.java:102)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:78)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cors.AbstractCorsFilter.doFilter(AbstractCorsFilter.java:77)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:79)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.SecurityCallbackFilter.doFilter(SecurityCallbackFilter.java:84)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:94)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:119)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.cache.filter.GZipFilter.doFilter(GZipFilter.java:74)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:128)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74)
+		at info.magnolia.cms.security.CsrfTokenFilterBase.doFilter(CsrfTokenFilterBase.java:99)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MultipartRequestFilter.doFilter(MultipartRequestFilter.java:163)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.ContentTypeFilter.doFilter(ContentTypeFilter.java:155)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.ContextFilter.doFilter(ContextFilter.java:128)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.SafeDestroyMgnlFilterWrapper.doFilter(SafeDestroyMgnlFilterWrapper.java:107)
+		at info.magnolia.cms.filters.MgnlFilterDispatcher.doDispatch(MgnlFilterDispatcher.java:67)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:110)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:96)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:08:36.317 SEVERE [http-nio-8080-exec-4] freemarker.log._JULLoggerFactory$JULLogger.error Error executing FreeMarker template
+	FreeMarker template error:
+	When calling macro "tourTypeIcon", required parameter "icon" (parameter #1) was specified, but had null/missing value.
+
+----
+Tip: If the parameter value expression on the caller side is known to be legally null/missing, you may want to specify a default value for it with the "!" operator, like paramValue!defaultValue.
+----
+
+	----
+	FTL stack trace ("~" means nesting-related):
+	- Failed at: #macro tourTypeIcon icon tourTypeName...  [in template "tours/templates/macros/tourTypeIcon.ftl" in macro "tourTypeIcon" at line 1, column 1]
+	- Reached through: @tourTypeIcon tourType.icon, tourType...  [in template "tours/templates/components/tourTypeTeaserRow.ftl" at line 19, column 25]
+	----
+
+	Java stack trace (for programmers):
+	----
+	freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+		at freemarker.core.Macro$Context.checkParamsSetAndApplyDefaults(Macro.java:308)
+		at freemarker.core.Environment.invokeMacroOrFunctionCommonPart(Environment.java:876)
+		at freemarker.core.Environment.invokeMacro(Environment.java:813)
+		at freemarker.core.UnifiedCall.accept(UnifiedCall.java:84)
+		at freemarker.core.Environment.visit(Environment.java:371)
+		at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:291)
+		at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+		at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+		at freemarker.core.Environment.visitIteratorBlock(Environment.java:645)
+		at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+		at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+		at freemarker.core.Environment.visit(Environment.java:335)
+		at freemarker.core.Environment.visit(Environment.java:341)
+		at freemarker.core.Environment.process(Environment.java:314)
+		at freemarker.template.Template.process(Template.java:383)
+		at info.magnolia.freemarker.FreemarkerHelper.render(FreemarkerHelper.java:172)
+		at info.magnolia.rendering.renderer.FreemarkerRenderer.onRender(FreemarkerRenderer.java:100)
+		at info.magnolia.rendering.renderer.AbstractRenderer.render(AbstractRenderer.java:166)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.templating.elements.ComponentElement.begin(ComponentElement.java:120)
+		at info.magnolia.templating.renderers.NoScriptRenderer.onRender(NoScriptRenderer.java:103)
+		at info.magnolia.templating.renderers.NoScriptRenderer.render(NoScriptRenderer.java:81)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.templating.elements.AreaElement.end(AreaElement.java:289)
+		at info.magnolia.templating.freemarker.AbstractDirective.execute(AbstractDirective.java:97)
+		at freemarker.core.Environment.visit(Environment.java:452)
+		at freemarker.core.UnifiedCall.accept(UnifiedCall.java:102)
+		at freemarker.core.Environment.visit(Environment.java:335)
+		at freemarker.core.Environment.visit(Environment.java:341)
+		at freemarker.core.Environment.process(Environment.java:314)
+		at freemarker.template.Template.process(Template.java:383)
+		at info.magnolia.freemarker.FreemarkerHelper.render(FreemarkerHelper.java:172)
+		at info.magnolia.rendering.renderer.FreemarkerRenderer.onRender(FreemarkerRenderer.java:100)
+		at info.magnolia.rendering.renderer.AbstractRenderer.render(AbstractRenderer.java:166)
+		at info.magnolia.module.site.renderer.SiteAwareRendererWrapper.render(SiteAwareRendererWrapper.java:108)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.rendering.engine.RenderingFilter.render(RenderingFilter.java:195)
+		at info.magnolia.rendering.engine.RenderingFilter.handleTemplateRequest(RenderingFilter.java:140)
+		at info.magnolia.rendering.engine.RenderingFilter.doFilter(RenderingFilter.java:94)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.rendering.model.ModelExecutionFilter.doFilter(ModelExecutionFilter.java:109)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.AggregatorFilter.doFilter(AggregatorFilter.java:133)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.RepositoryMappingFilter.doFilter(RepositoryMappingFilter.java:121)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58)
+		at info.magnolia.module.cache.executor.CompositeExecutor.processCacheRequest(CompositeExecutor.java:66)
+		at info.magnolia.module.cache.filter.CacheFilter.doFilter(CacheFilter.java:164)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.virtualuri.VirtualUriFilter.doFilter(VirtualUriFilter.java:102)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:78)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cors.AbstractCorsFilter.doFilter(AbstractCorsFilter.java:77)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:79)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.SecurityCallbackFilter.doFilter(SecurityCallbackFilter.java:84)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:94)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:119)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.cache.filter.GZipFilter.doFilter(GZipFilter.java:74)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:128)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74)
+		at info.magnolia.cms.security.CsrfTokenFilterBase.doFilter(CsrfTokenFilterBase.java:99)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MultipartRequestFilter.doFilter(MultipartRequestFilter.java:163)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.ContentTypeFilter.doFilter(ContentTypeFilter.java:155)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.ContextFilter.doFilter(ContextFilter.java:128)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.SafeDestroyMgnlFilterWrapper.doFilter(SafeDestroyMgnlFilterWrapper.java:107)
+		at info.magnolia.cms.filters.MgnlFilterDispatcher.doDispatch(MgnlFilterDispatcher.java:67)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:110)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:96)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:08:58.461 SEVERE [http-nio-8080-exec-4] freemarker.log._JULLoggerFactory$JULLogger.error Error executing FreeMarker template
+	FreeMarker template error:
+	When calling macro "tourTypeIcon", required parameter "icon" (parameter #1) was specified, but had null/missing value.
+
+----
+Tip: If the parameter value expression on the caller side is known to be legally null/missing, you may want to specify a default value for it with the "!" operator, like paramValue!defaultValue.
+----
+
+	----
+	FTL stack trace ("~" means nesting-related):
+	- Failed at: #macro tourTypeIcon icon tourTypeName...  [in template "tours/templates/macros/tourTypeIcon.ftl" in macro "tourTypeIcon" at line 1, column 1]
+	- Reached through: @tourTypeIcon tourType.icon, tourType...  [in template "tours/templates/components/tourTypeTeaserRow.ftl" at line 19, column 25]
+	----
+
+	Java stack trace (for programmers):
+	----
+	freemarker.core._MiscTemplateException: [... Exception message was already printed; see it above ...]
+		at freemarker.core.Macro$Context.checkParamsSetAndApplyDefaults(Macro.java:308)
+		at freemarker.core.Environment.invokeMacroOrFunctionCommonPart(Environment.java:876)
+		at freemarker.core.Environment.invokeMacro(Environment.java:813)
+		at freemarker.core.UnifiedCall.accept(UnifiedCall.java:84)
+		at freemarker.core.Environment.visit(Environment.java:371)
+		at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:291)
+		at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+		at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+		at freemarker.core.Environment.visitIteratorBlock(Environment.java:645)
+		at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+		at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+		at freemarker.core.Environment.visit(Environment.java:335)
+		at freemarker.core.Environment.visit(Environment.java:341)
+		at freemarker.core.Environment.process(Environment.java:314)
+		at freemarker.template.Template.process(Template.java:383)
+		at info.magnolia.freemarker.FreemarkerHelper.render(FreemarkerHelper.java:172)
+		at info.magnolia.rendering.renderer.FreemarkerRenderer.onRender(FreemarkerRenderer.java:100)
+		at info.magnolia.rendering.renderer.AbstractRenderer.render(AbstractRenderer.java:166)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.templating.elements.ComponentElement.begin(ComponentElement.java:120)
+		at info.magnolia.templating.renderers.NoScriptRenderer.onRender(NoScriptRenderer.java:103)
+		at info.magnolia.templating.renderers.NoScriptRenderer.render(NoScriptRenderer.java:81)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.templating.elements.AreaElement.end(AreaElement.java:289)
+		at info.magnolia.templating.freemarker.AbstractDirective.execute(AbstractDirective.java:97)
+		at freemarker.core.Environment.visit(Environment.java:452)
+		at freemarker.core.UnifiedCall.accept(UnifiedCall.java:102)
+		at freemarker.core.Environment.visit(Environment.java:335)
+		at freemarker.core.Environment.visit(Environment.java:341)
+		at freemarker.core.Environment.process(Environment.java:314)
+		at freemarker.template.Template.process(Template.java:383)
+		at info.magnolia.freemarker.FreemarkerHelper.render(FreemarkerHelper.java:172)
+		at info.magnolia.rendering.renderer.FreemarkerRenderer.onRender(FreemarkerRenderer.java:100)
+		at info.magnolia.rendering.renderer.AbstractRenderer.render(AbstractRenderer.java:166)
+		at info.magnolia.module.site.renderer.SiteAwareRendererWrapper.render(SiteAwareRendererWrapper.java:108)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine.render(DefaultRenderingEngine.java:120)
+		at info.magnolia.rendering.engine.DefaultRenderingEngine$$EnhancerByCGLIB$$8a68cb18.render(<generated>)
+		at info.magnolia.rendering.engine.RenderingFilter.render(RenderingFilter.java:195)
+		at info.magnolia.rendering.engine.RenderingFilter.handleTemplateRequest(RenderingFilter.java:140)
+		at info.magnolia.rendering.engine.RenderingFilter.doFilter(RenderingFilter.java:94)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.rendering.model.ModelExecutionFilter.doFilter(ModelExecutionFilter.java:109)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.AggregatorFilter.doFilter(AggregatorFilter.java:133)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.RepositoryMappingFilter.doFilter(RepositoryMappingFilter.java:121)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.cache.executor.Bypass.processCacheRequest(Bypass.java:58)
+		at info.magnolia.module.cache.executor.CompositeExecutor.processCacheRequest(CompositeExecutor.java:66)
+		at info.magnolia.module.cache.filter.CacheFilter.doFilter(CacheFilter.java:164)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.i18n.I18nContentSupportFilter.doFilter(I18nContentSupportFilter.java:85)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.virtualuri.VirtualUriFilter.doFilter(VirtualUriFilter.java:102)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.RangeSupportFilter.doFilter(RangeSupportFilter.java:78)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.BaseSecurityFilter.doFilter(BaseSecurityFilter.java:57)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cors.AbstractCorsFilter.doFilter(AbstractCorsFilter.java:77)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:79)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.SecurityCallbackFilter.doFilter(SecurityCallbackFilter.java:84)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.security.LogoutFilter.doFilter(LogoutFilter.java:94)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.site.filters.SiteMergeFilter.doFilter(SiteMergeFilter.java:119)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MultiChannelFilter.doFilter(MultiChannelFilter.java:83)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.module.cache.filter.GZipFilter.doFilter(GZipFilter.java:74)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.security.auth.login.LoginFilter.doFilter(LoginFilter.java:128)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:74)
+		at info.magnolia.cms.security.CsrfTokenFilterBase.doFilter(CsrfTokenFilterBase.java:99)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:81)
+		at info.magnolia.cms.filters.MultipartRequestFilter.doFilter(MultipartRequestFilter.java:163)
+		at info.magnolia.cms.filters.OncePerRequestAbstractMgnlFilter.doFilter(OncePerRequestAbstractMgnlFilter.java:59)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.ContentTypeFilter.doFilter(ContentTypeFilter.java:155)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.ContextFilter.doFilter(ContextFilter.java:128)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.MgnlFilterChain.doFilter(MgnlFilterChain.java:79)
+		at info.magnolia.cms.filters.CompositeFilter.doFilter(CompositeFilter.java:75)
+		at info.magnolia.cms.filters.AbstractMgnlFilter.doFilter(AbstractMgnlFilter.java:85)
+		at info.magnolia.cms.filters.SafeDestroyMgnlFilterWrapper.doFilter(SafeDestroyMgnlFilterWrapper.java:107)
+		at info.magnolia.cms.filters.MgnlFilterDispatcher.doDispatch(MgnlFilterDispatcher.java:67)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:110)
+		at info.magnolia.cms.filters.MgnlMainFilter.doFilter(MgnlMainFilter.java:96)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:11:29.735 WARNING [http-nio-8080-exec-2] com.vaadin.event.EventRouter.addListener Adding listeners with type Object is deprecated, event listener should extend SerializableEventListener
+31-Mar-2023 23:11:29.761 WARNING [http-nio-8080-exec-2] com.vaadin.event.EventRouter.addListener Adding listeners with type Object is deprecated, event listener should extend SerializableEventListener
+31-Mar-2023 23:11:29.767 WARNING [http-nio-8080-exec-2] com.vaadin.event.EventRouter.addListener Adding listeners with type Object is deprecated, event listener should extend SerializableEventListener
+31-Mar-2023 23:12:29.041 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+31-Mar-2023 23:12:29.042 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 23:12:29.047 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+31-Mar-2023 23:12:31.095 INFO [main] org.atmosphere.util.ForkJoinPool.<init> Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+31-Mar-2023 23:12:31.096 WARNING [main] org.atmosphere.cpr.DefaultBroadcaster.addAtmosphereResource AtmosphereResource c6891eb3-48bc-4b26-942a-58c7d972f649 is not suspended. If cached messages exists, this may cause unexpected situation. Suspend first
+31-Mar-2023 23:12:31.098 WARNING [main] org.atmosphere.cpr.DefaultBroadcaster.addAtmosphereResource AtmosphereResource 5e9a9098-c450-4379-8bd6-293513737f08 is not suspended. If cached messages exists, this may cause unexpected situation. Suspend first
+31-Mar-2023 23:12:32.634 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaAuthor] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2023 23:12:32.634 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-7-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+ java.base/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.634 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-62] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.635 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-63] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.635 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-64] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.636 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-66] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.637 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-67] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.638 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-68] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.638 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-69] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.638 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-70] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.639 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-71] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.639 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-73] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.639 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-74] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.640 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-75] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.640 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-72] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.641 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-76] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.641 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-77] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.641 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-78] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.642 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-79] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.642 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-80] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.642 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-81] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.643 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-82] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.643 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-83] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.643 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-84] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.644 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-85] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.644 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-86] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.644 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-87] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.644 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-88] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.645 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-89] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.645 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-90] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.645 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-91] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.645 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-92] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.646 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-93] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.646 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-96] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.646 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-106] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.647 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Thread-107] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.647 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-13-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+ java.base/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.647 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [pool-14-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+ java.base/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.648 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Scheduler-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1223)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.648 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Shared-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:449)
+ java.base/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1891)
+ java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1809)
+ java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+31-Mar-2023 23:12:32.648 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaAuthor] appears to have started a thread named [Atmosphere-Scheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.650 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@d2f45bc]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 23:12:32.650 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@d2f45bc]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 23:12:32.650 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@d2f45bc]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 23:12:32.651 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@d2f45bc]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 23:12:32.651 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaAuthor] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@d2f45bc]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 23:12:32.748 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [magnoliaPublic] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+31-Mar-2023 23:12:32.749 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-14] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.749 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-16] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.749 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-17] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.750 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-18] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.750 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-19] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.750 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-20] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.751 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-21] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.751 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-22] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.751 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-23] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.752 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-24] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.752 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-25] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.752 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-26] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.753 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-27] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.753 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-28] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.753 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-29] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.754 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-30] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.754 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-31] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.754 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-32] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.755 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-33] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.755 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-34] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.755 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-35] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.755 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-36] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.756 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-37] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.756 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-38] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.756 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Transient File Reaper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+ java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+ java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:234)
+ org.apache.jackrabbit.util.TransientFileFactory$ReaperThread.run(TransientFileFactory.java:192)
+31-Mar-2023 23:12:32.757 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [magnoliaPublic] appears to have started a thread named [Thread-54] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.lang.Object.wait(Object.java:339)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon.nextTask(Unknown Source)
+ EDU.oswego.cs.dl.util.concurrent.ClockDaemon$RunLoop.run(Unknown Source)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.758 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@73455e00]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 23:12:32.758 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [magnoliaPublic] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@73455e00]) and a value of type [info.magnolia.context.SystemRepositoryStrategy] (value [SystemRepositoryStrategy[No creation stack trace available. Enable DEBUG logging for class info.magnolia.context.SystemRepositoryStrategy to enable it.]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+31-Mar-2023 23:12:32.766 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 23:12:32.779 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+31-Mar-2023 23:12:32.781 INFO [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1420)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1259)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at org.apache.tika.parser.AbstractExternalProcessParser.lambda$static$0(AbstractExternalProcessParser.java:43)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+31-Mar-2023 23:12:32.781 INFO [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.Process]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1432)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1420)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1259)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at org.apache.tika.parser.AbstractExternalProcessParser.lambda$static$0(AbstractExternalProcessParser.java:43)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
